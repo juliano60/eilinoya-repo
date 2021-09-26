@@ -8,3 +8,7 @@ def home(request):
 
 def contact(request):
     return render(request, 'portfolio/contact.html')
+
+
+def about(request):
+    return render(request, 'portfolio/about.html')

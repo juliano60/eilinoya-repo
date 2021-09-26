@@ -53,7 +53,7 @@
               <a href="{% url 'contact' %}" class="nav-link">Contactes</a>
             </li>
             <li class="nav-item">
-              <a hrref="#" class="nav-link">A Propos</a>
+              <a href="{% url 'about' %}" class="nav-link">A Propos</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -73,6 +73,23 @@
     {% block content %}
     {% endblock %}
 
+    <!-- footer area -->
+    <footer class="bg-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="text-white font-weight-light text-capitalize p-3 display-4">Eilinoya Events</h1>
+            <div class="py-2">
+              <a href="https://www.facebook.com/eilinoya.ci/events/?ref=page_internal" target="_blank"><i class="fa fa-facebook fa-2x text-primary mx-3"></i></a>
+              <a href="https://www.youtube.com/results?search_query=eilinoya"><i class="fa fa-youtube fa-2x text-danger mx-3"></i></a>
+              <a href="https://www.facebook.com/eilinoya.ci/events/?ref=page_internal"><i class="fa fa-google-plus fa-2x text-info mx-3"></i></a>
+            </div>
+            <p class="text-light py-3">&copy; Copyrights 2021</p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
     <!-- end of footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
