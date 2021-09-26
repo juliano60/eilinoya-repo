@@ -5,26 +5,21 @@
 <section>
     <div class="container p-20">
         <div class="row">
-            <h2 class="display-6">Location</h2>
-            <div class="col-sm-6">
-                
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6"  style="padding: 20px">
                 <h2 class="display-6">Contactes</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4">
+                <br/>
                 <p>
                     <i class="fa fa-phone fa-1x"></i> <a href="tel:78 60 59">(+225) 78 60 59</a> |
                     <a href="tel:78 98 66 79">(+225) 78 98 66 79</a>
                 </p>
-            </div>
-            <div class="col-sm-4">
-                <p>
+               <p>
                     <i class="fa fa-envelope-o fa-1x"></i> eilinoya.events@yahoo.com
+                </p>
+            </div>
+            <div class="col-sm-6" style="padding: 20px">
+                <h2 class="display-6">Location</h2>
+                <img src="{% static 'portfolio/images/map_elinoya.jpg' %}" style="width:80%; margin: 8px;"/>
+                <p class="lead"> Nous s&ocirc;mmes situ&eacute;s &agrave; 5 minutes &agrave; pieds d'Abidjan Mall.
                 </p>
             </div>
         </div>
@@ -39,7 +34,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="mobile" class="form-label">T&eacute;l&eacute;phone</label>
-                        <input type="number" class="form-control" id="mobile" placeholder="05 56 43 43" />
+                        <input type="tel" class="form-control" id="mobile" placeholder="05 56 43 43" />
                     </div>
                     <div class="mb-3">
                         <label for="question" class="form-label">Question</label>
