@@ -17,6 +17,47 @@
     <!-- icon -->
     <link rel="shortcut icon" type="image/png" href="{% static "portfolio/images/logo2.png" %}">
 
+    <style>
+        /* header */
+        header {
+          height: 100vh;
+          background: url({% static 'portfolio/images/background003.jpg' %}) no-repeat center center /cover;
+        }
+
+      /* banner */
+      .banner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+      }
+
+      .banner-heading {
+        animation-name: anim;
+        animation-duration: 2s;
+      }
+
+      .banner-par {
+        animation-name: anim;
+        animation-duration: 2s;
+        animation-delay: .5s;
+        animation-fill-mode: backwards;
+      }
+
+      @keyframes anim {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+      }
+    </style>
+
+
     <title>Eilinoya Events</title>
     <style>
     </style>
