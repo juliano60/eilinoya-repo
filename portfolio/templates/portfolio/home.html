@@ -44,4 +44,44 @@
 </section>
 
 
+<!-- collection -->
+<section class="bg-secondary py-4">
+    <div class="container-fluid">
+         <!-- title -->
+        <div class="row text-center text-white">
+            <div class="col m-4">
+                <h1 class="display-4 mb-4">Galerie</h1>
+                <div class="underline mb-4"></div>
+                <p class="lead">Mariages, anniversaires, bapt&egrave;mes, r&eacute;unions d'entreprises</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 my-5">
+                <div class="card border-0 card-shadow">
+                    <img src="{% static 'portfolio/images/img001.jpg' %}" alt="marriage" class="card-img" />
+                    <div class="card-img-overlay">
+                        <h5 class="text-white text-uppercase fw-bold p-2 heading">Mariages</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 my-5">
+                <div class="card border-0 card-shadow">
+                    <img src="{% static 'portfolio/images/img006.jpg' %}" alt="anniversaire" class="card-img" />
+                    <div class="card-img-overlay">
+                        <h5 class="text-white text-uppercase fw-bold p-2 heading">Anniversaires</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 my-5">
+                <div class="card border-0 card-shadow">
+                    <img src="{% static 'portfolio/images/img009.jpg' %}" alt="bapteme" class="card-img" />
+                    <div class="card-img-overlay">
+                        <h5 class="text-white text-uppercase fw-bold p-2 heading">Bapt&ecirc;mes</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
  {% endblock %}
