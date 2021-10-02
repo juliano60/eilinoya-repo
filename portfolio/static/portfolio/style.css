@@ -1,0 +1,69 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+
+.nav-menu {
+padding: 20px 30px;
+}
+
+.menu-item {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #eee;
+  transition: color .5s;
+}
+
+.menu-item:hover {
+  color: #70aed2;
+}
+
+.custom-navbar {
+  padding: 5px 30px;
+}
+
+/* banner */
+
+.banner {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 80%;
+}
+
+.banner-heading {
+animation-name: anim;
+animation-duration: 2s;
+}
+
+.banner-par {
+animation-name: anim;
+animation-duration: 2s;
+animation-delay: .5s;
+animation-fill-mode: backwards;
+}
+
+@keyframes anim {
+0% {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+100% {
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+
+/* mission */
+
+.mission {
+    background: #151f20;
+}
+
+.underline {
+    width: 150px;
+    border: 3px solid #eee;
+    margin: auto;
+}
